@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:14 # You can change the version if needed (e.g., postgres:15)
+    container_name: postgres_container
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER} # Replace with your desired username
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # Replace with your desired password
+      POSTGRES_DB: ${POSTGRES_DB} # Replace with your desired database name
+    ports:
+      - "5432:5432" # Maps the host port 5432 to the container's port 5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persistent storage for data
+
+volumes:
+  postgres_data: # Named volume for storing PostgreSQL data
