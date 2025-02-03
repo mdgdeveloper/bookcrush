@@ -35,7 +35,7 @@ const LoginInfo = () => {
                     </DropdownMenuContent>
                 </DropdownMenu >
             ) : (
-                <Button onClick={handleLogin} className="text-black inline-flex items-center justify-center px-7 py-2 text-sm font-medium bg-pink-400 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-shadow hover:bg-pink-600">Login</Button>)}
+                <Button onClick={handleLogin} className="text-white inline-flex items-center justify-center px-7 py-2 text-sm font-medium bg-pink-700 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-shadow hover:bg-pink-500">Login</Button>)}
         </>
 
     )

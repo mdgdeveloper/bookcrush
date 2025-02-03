@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import NavBar from "@/components/navbar/NavBar"
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <div>
       <NavBar />
       <div>
-        Home
+        <Hero />
       </div>
     </div>
   );
