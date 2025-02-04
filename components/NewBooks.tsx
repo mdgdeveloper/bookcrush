@@ -9,8 +9,8 @@ import Image from "next/image"
 
 const NewBooks = () => {
     return (
-        <div className="container mx-auto p-10 max-w-[1000px]">
-            <h2 className="mb-5 text-3xl text-center">Novedades</h2>
+        <div className="container mx-auto p-10 max-w-[1000px] mt-5">
+            <h2 className="mb-12 text-3xl text-center bg-yellow-400 font-semibold inline-block px-3 py-2 border-2 border-black shadow-neoblack">Novedades en la base de datos</h2>
 
             <Carousel
 
