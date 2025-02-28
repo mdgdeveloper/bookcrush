@@ -1,3 +1,3 @@
-type Book = {
+export type Book = {
     title: string;
 }
